@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+nav {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.nav-bar {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-bar li {
+    display: inline; /* Display items horizontally */
+    margin-right: 1rem; /* Add space between items */
+}
